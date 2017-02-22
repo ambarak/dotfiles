@@ -1,9 +1,14 @@
 Plugin 'vim-airline/vim-airline' " lean & mean status/tabline for vim that's light as air
 Plugin 'vim-airline/vim-airline-themes' " lean & mean status/tabline for vim that's light as air
 Plugin 'morhetz/gruvbox' " Retro groove color scheme for Vim
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'tomasr/molokai'
 
 Plugin 'scrooloose/nerdcommenter' " Vim plugin for intensely orgasmic commenting
 Plugin 'scrooloose/nerdtree' " tree explorer
+Plugin 'majutsushi/tagbar'
+
+
 
 Plugin 'LucHermitte/lh-vim-lib'
 Plugin 'LucHermitte/lh-tags'
