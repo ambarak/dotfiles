@@ -7,6 +7,7 @@ Plugin 'tomasr/molokai'
 Plugin 'scrooloose/nerdcommenter' " Vim plugin for intensely orgasmic commenting
 Plugin 'scrooloose/nerdtree' " tree explorer
 Plugin 'majutsushi/tagbar'
+Plugin 'jeetsukumaran/vim-buffergator'
 
 
 

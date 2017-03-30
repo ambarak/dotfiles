@@ -1,5 +1,5 @@
 " Change leader to a more efficient button
-let mapleader = "\<Space>"
+let mapleader = '\'
 
 " Close buffers without pain
 nnoremap <silent> <leader>x :bd<CR>
