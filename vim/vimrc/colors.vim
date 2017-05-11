@@ -6,7 +6,9 @@ set background=dark
 " gruvbox
 " let g:gruvbox_italicize_comments=1
 " let g:gruvbox_italic=1
-colorscheme gruvbox
+" colorscheme gruvbox
+ colorscheme solarized
+" colorscheme molokai
 
 " Italic FIXME is this working?
 " let &t_ZH="\e[3m"

@@ -1,5 +1,5 @@
 " Change leader to a more efficient button
-let mapleader = "\<Space>"
+let mapleader = '\'
 
 " Close buffers without pain
 nnoremap <silent> <leader>x :bd<CR>
@@ -49,6 +49,12 @@ inoremap <silent> <ESC>OD <Nop>
 
 " Nerd Tree shortcut
 nnoremap <leader>ne :NERDTreeToggle<cr>
+
+" TagBar shortcut
+nnoremap <leader>t  :TagbarOpenAutoClose<CR>
+
+" Buffergator shorcuts
+nnoremap <leader>b  :BuffergatorToggle<CR>
 
 " cltrp command palette
 nnoremap <leader>; :CtrlPCmdPalette<CR>
@@ -127,7 +133,7 @@ noremap <F7> :try<bar>lnext<bar>catch /^Vim\%((\a\+)\)\=:E\%(553\<bar>42\):/<bar
 " Repeat last command
 noremap <F8> q:k<CR>
 " TODO not assigned F9
-" noremap <F9>
+"noremap <F9> 
 " TODO not assigned F10
 " noremap <F10>
 " TODO not assigned F11
